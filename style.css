@@ -22,6 +22,7 @@ h3{
     padding-top: 15px;
     font-size: 1.2em;
     font-weight: 200;
+    padding-bottom: 40px;
 }
 .col-lg-4{
     padding-right: 0;
@@ -55,6 +56,10 @@ width: 22rem;
 
 }
 
+.colmidle{
+    margin-bottom: 30px;
+}
+
 .card-title{
     padding-top: 10px;
     font-weight: 600;
@@ -64,10 +69,6 @@ width: 22rem;
 .card-text{
     font-weight: 200;
     margin-bottom: 30px;
-}
-
-.colmidle{
-    margin-top: 40px;
 }
 
 
@@ -83,7 +84,7 @@ width: 22rem;
    
 }
 
-@media (max-width: 780px) 
+@media (max-width: 1000px) 
 {
   .card
    {
@@ -94,10 +95,34 @@ width: 22rem;
    }
 
    .colmidle{
-       margin-top: 0;
+       margin-bottom: 0;
    }
+
+   .line1{
+    padding-left: 15px;
+    padding-right: 15px;
+   }
+
+  .textDescription {
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 25px;
+  }
 
    .col-lg-4{
     justify-content: center !important;
    }
+}
+
+
+@media (max-width: 330px) 
+{
+  .card
+   {
+   
+    width:  18rem;
+    
+   }
+
+   .
 }

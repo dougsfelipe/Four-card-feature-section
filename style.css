@@ -23,6 +23,9 @@ h3{
     font-size: 1.2em;
     font-weight: 200;
 }
+.col-lg-4{
+    padding-right: 0;
+}
 
 .cardstyle{
     background-color: white;
@@ -34,6 +37,7 @@ h3{
     -webkit-box-shadow: -2px 8px 22px -5px rgba(38,43,46,0.25);
 -moz-box-shadow: -2px 8px 22px -5px rgba(38,43,46,0.25);
 box-shadow: -2px 8px 22px -5px rgba(38,43,46,0.25);
+width: 22rem;
 
 }
 .cardstyle1{
@@ -47,6 +51,7 @@ box-shadow: -2px 8px 22px -5px rgba(38,43,46,0.25);
 -moz-box-shadow: -2px 8px 22px -5px rgba(38,43,46,0.25);
 box-shadow: -2px 8px 22px -5px rgba(38,43,46,0.25);
 margin-top: 30px;
+width: 22rem;
 
 }
 
@@ -61,11 +66,38 @@ margin-top: 30px;
     margin-bottom: 30px;
 }
 
+.colmidle{
+    margin-top: 40px;
+}
 
-@media (max-width: 600px) 
+
+@media (max-width: 1024px) 
 {
-  .facet_sidebar 
+  .card
    {
-    display: none;
+    
+    width: 21rem;
+    
+   }
+
+   
+}
+
+@media (max-width: 780px) 
+{
+  .card
+   {
+    margin: 0;
+    width: 20rem;
+    margin-top: 40px;
+    margin-bottom: 0px !important;
+   }
+
+   .colmidle{
+       margin-top: 0;
+   }
+
+   .col-lg-4{
+    justify-content: center !important;
    }
 }
